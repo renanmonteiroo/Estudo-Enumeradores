@@ -15,7 +15,7 @@ namespace CalculoSalarial
             Console.WriteLine("Entre com os dados do trabalhador:");
             Console.Write("Nome: ");
             string name = Console.ReadLine();
-            Console.Write("Level: (Junior/MidLevel/Senior) : ");
+            Console.Write("Cargo: (Junior/MidLevel/Senior) : ");
             TrabalhadorNivel level = Enum.Parse<TrabalhadorNivel>(Console.ReadLine());
             Console.Write("Base salarial: ");
             double baseSalario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
